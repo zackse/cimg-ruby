@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Do not edit by hand; please use build scripts/templates to make changes
 
-docker build --file 3.0/Dockerfile -t cimg/ruby:3.0.4 -t cimg/ruby:3.0 .
-docker build --file 3.0/node/Dockerfile -t cimg/ruby:3.0.4-node -t cimg/ruby:3.0-node .
-docker build --file 3.0/browsers/Dockerfile -t cimg/ruby:3.0.4-browsers -t cimg/ruby:3.0-browsers .
+docker build --file 3.2/Dockerfile -t evanzacks705/cimg-sf-ruby:3.2.0-preview3 -t evanzacks705/cimg-sf-ruby:3.2-rc .
+docker build --file 3.2/node/Dockerfile -t evanzacks705/cimg-sf-ruby:3.2.0-preview3-node -t evanzacks705/cimg-sf-ruby:3.2-rc-node .
+docker build --file 3.2/browsers/Dockerfile -t evanzacks705/cimg-sf-ruby:3.2.0-preview3-browsers -t evanzacks705/cimg-sf-ruby:3.2-rc-browsers .
